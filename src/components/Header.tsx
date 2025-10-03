@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import kalasuyaLogo from "../assets/kalasurya_logo.png"; 
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ const Header = () => {
           <div className="flex items-center">
             <a href="/" className="flex items-center">
               <img
-                src=" https://kalasuryafoundation.org/images/kalasurya_logo.png    "
+                src={kalasuyaLogo}
                 alt="Kalasurya Foundation Logo"
                 className="h-16 w-16 mr-2 lg:h-14 lg:w-14 mt-1"
               />

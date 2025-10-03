@@ -151,7 +151,7 @@ const GetInvolved = () => {
           {/* Donation Levels */}
           <Card className="shadow-card">
             {/* 👇 ONLY ADDED: Wrapper div with id="donation" — NO OTHER CHANGES */}
-            <div id="donation">
+            <div id="donation" className="scroll-mt-20">
               <CardHeader>
                 <CardTitle className="text-2xl font-bold text-foreground flex items-center">
                   <Heart className="w-6 h-6 text-primary mr-2" />

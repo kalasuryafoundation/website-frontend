@@ -161,9 +161,12 @@ const Footer = () => {
               <div className="text-center">
                 <Heart className="w-6 h-6 text-primary mx-auto mb-2" />
                 <p className="text-sm text-foreground font-medium mb-3">Support Our Mission</p>
-                <Button size="sm" className="w-full">
-                  Donate Now
-                </Button>
+                {/* In your Footer */}
+                <a href="#donation" className="block w-full">
+                  <Button size="sm" className="w-full">
+                    Donate Now
+                  </Button>
+                </a>
               </div>
             </Card>
           </div>
@@ -191,7 +194,15 @@ const Footer = () => {
             </div>
 
             <div className="text-sm text-muted-foreground">
-              Made with ❤️ by GFuture Tech Pvt Ltd
+              Made with ❤️ by{' '}
+              <a
+                href="https://gfuturetech.com/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:underline hover:text-primary transition-colors"
+              >
+                GFuture Tech Pvt Ltd
+              </a>
             </div>
           </div>
         </div>
