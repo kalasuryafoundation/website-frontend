@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import healthEducationImage from "@/assets/Menstrual-Revolution_Kalasurya-Foundation.jpg";
-import environmentalImage from "@/assets/plantation.jpeg";
+import environmentalImage from "@/assets/Gemini.jpg";
 import CommunityDevelopment from "@/assets/health-education.jpg"
 
 const Programs = () => {
