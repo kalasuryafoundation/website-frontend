@@ -8,7 +8,7 @@ const Events = () => {
     {
       id: 1,
       title: "Girl's Menstrual Health Seminar Series",
-      date: "September 17 to 21, 2025",
+      date: "September 17 to 21, 2026",
       time: "9:00 AM - 5:00 PM",
       location: "Dev Bhumi,Dwarka and Porbander",
       description: "Comprehensive five-days workshop covering menstrual health, nutrition, and reproductive wellness.",
@@ -20,7 +20,7 @@ const Events = () => {
     {
       id: 2,
       title: "Senior Citizen's Picnic",
-      date: "November 4, 2025",
+      date: "November 4, 2026",
       time: "5:00 AM - 1:00 AM",
       location: "Statue Of Unity",
       description: "One day picnic with senior citizens to entertain them.",
@@ -32,7 +32,7 @@ const Events = () => {
     {
       id: 3,
       title: "Bharatnatyam Dikshant Samaroh 2025",
-      date: "December 21, 2025",
+      date: "December 21, 2026",
       time: "5:00 PM - 9:00 PM",
       location: "Bhagwat Vidhyapith Sola, Ahmedabad",
       description: "Nine disciples of our foundation will present their Arangetram,performing non-stop for 2 hours.",
@@ -44,7 +44,7 @@ const Events = () => {
     {
       id: 4,
       title: "Joint Family Award Ceremoney Season - 7",
-      date: "May 10, 2026",
+      date: "May 10, 2027",
       time: "3:00 PM - 6:00 PM",
       location: "Tagor Hall,Ahmedabad",
       description: "If you're living in joint family with more then 20 members register your name and we will falicitate your family.",
